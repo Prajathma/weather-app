@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-dimension {
+    background-image: url(../Public/wp8906588-rain-street-wallpapers.jpg);
+    height: 630px;
+    /* color: rgba(0, 0, 0, 0.549); */
+}
+
+.main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-dimension {
+    background: hsla(0, 0%, 0%, 0.888);
+    height: 300px;
+    border-radius: 30px;
+}
+
+.search {
+    color: white;
+    background: #7c7c7c2b;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+
+}
+
+::placeholder {
+
+    color: grey;
+    /* padding-left: px; */
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+@media (width <=600px) {
+    .search {
+        padding-left: 15px;
+    }
+
+    .search::placeholder {
+        /* padding-left: px; */
+    }
+
+    .icon img {
+        position: relative;
+        left: -10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .cloud {
+        position: none;
+
+    }
+
+
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+.logo-dimension {
+    background: #7c7c7c2b;
+    outline: 0;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+}
+
+.logo-dimension :hover {
+    background: #7c7c7c78;
+}
+
+.logo {
+    border: 0;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.cloud {
+    text-transform: capitalize;
+}
+
+.cloud {
+    position: relative;
+    left: -10px;
+}
